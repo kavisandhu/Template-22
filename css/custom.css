@@ -111,7 +111,7 @@ footer p.text-muted{
 	.thankYou-bg {min-height: 280px;}
 	footer { margin-top: 50px;  position: relative;}
 	footer p.text-muted{font-size:10px;}
-
+}
 @media only screen and (max-width:479px){
 	.thankYou-bg h1{	font-size:40px;}
 	.thankYou-bg h2{font-size:22px;}
