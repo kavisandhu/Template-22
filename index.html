@@ -12,32 +12,30 @@
 
 <body>
 	<div class="bg simple-modal-flow-control"></div>
-	<header>
+	<div class="header">
 		<div class="container">
 			<div class="col-sm-12 text-center marginTopBtm60">
 				<a href="#"><img class="" src="images/logo.png" alt=""/></a>
 			</div>
 		</div>
-	</header>
-	<section>		
+	</div>
+	<div class="section">		
 		<div class="container">
 			<div class="col-md-offset-2 col-sm-offset-1 col-md-8 col-sm-10 text-center thankYou-bg">
 				
 				<h1>Thank <span>you</span>!</h1>
 				<h2>Just one more step...</h2>
-				<p class="desktopView">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<p class="mobileView">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-				
+				<p class="desktopView">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>				
 				<a class="btn btn-primary btn-lg" href="#">Click Here <i class="rightArw"></i></a>
 				
 			</div>
 		</div>
-	</section>
-	<footer>
+	</div>
+	<div class="footer">
 		<div class="container">
 			<p class="text-muted">Copyright &copy; 2014 Yourlogo.com. All rights reserved.</p>
 		</div>
-	</footer>
+	</div>
 	<script src="js/jquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
@@ -48,7 +46,7 @@
 			  if (window.RT) clearTimeout(window.RT);
 			  window.RT = setTimeout(function()
 			  {
-				this.location.reload(false); 
+				this.location.reload(false); /* false to get page from cache */
 			  }, 100);
 			});
 		});
