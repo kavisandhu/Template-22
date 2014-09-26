@@ -51,6 +51,8 @@ html, body{height:100%;}
 .thankYou-bg p.desktopView{
 	padding:0 65px;
 	margin-top:25px;
+	max-height:100px;
+	overflow:hidden;
 }
 
 .thankYou-bg p.mobileView{
@@ -84,7 +86,7 @@ html, body{height:100%;}
 	margin:60px 0;
 }
 
-footer{
+.footer{
 	position:fixed;
 	bottom:0;
 	background:rgba(0, 0, 0, 0.6);
@@ -92,7 +94,7 @@ footer{
 	width:100%;
 }
 
-footer p.text-muted{
+.footer p.text-muted{
 	color:#fff;
 	font-family: 'Open Sans', sans-serif;
 	text-transform:uppercase;
@@ -106,12 +108,12 @@ footer p.text-muted{
 	.thankYou-bg h2{font-size:32px;}
 	.marginTopBtm60{ margin:30px 0;}
 	.thankYou-bg{padding:1px 0px 0;}
-	.thankYou-bg p.mobileView{display:block;}
-	.thankYou-bg p.desktopView{display:none;}
+	/* .thankYou-bg p.mobileView{display:block;} */
+	.thankYou-bg p.desktopView{max-height: 62px;}
 	.thankYou-bg {min-height: 280px;}
-	footer { margin-top: 50px;  position: relative;}
-	footer p.text-muted{font-size:10px;}
-}
+	.footer { margin-top: 50px;  position: relative;}
+	.footer p.text-muted{font-size:10px;}
+
 @media only screen and (max-width:479px){
 	.thankYou-bg h1{	font-size:40px;}
 	.thankYou-bg h2{font-size:22px;}
